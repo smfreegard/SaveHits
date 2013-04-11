@@ -1,0 +1,2 @@
+loadplugin Mail::SpamAssassin::Plugin::SaveHits /etc/mail/spamassassin/SaveHits.pm
+savehits_dir /var/spool/savehits
