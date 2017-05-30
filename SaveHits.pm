@@ -51,7 +51,7 @@ my $VERSION = 0.1;
 
 use strict;
 use Mail::SpamAssassin::Plugin;
-use Digest::SHA1 qw{sha1_hex};
+use Digest::SHA qw{sha1_hex};
 use File::Path;
 use File::Basename;
 use vars qw(@ISA);
